@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+
+#h1 {
+    color: cadetblue;
+    background-color: chartreuse;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid black;
+    border-radius: 30px;
+    animation-name: example;
+    animation-duration: 7s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 1px 1px 38px purple;
+    }
+    to {
+        box-shadow: 1px 1px 38px green;
+    }
+}
+
+.p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#myModal {
+    width: 90%;
+}
